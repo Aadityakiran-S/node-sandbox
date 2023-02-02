@@ -46,7 +46,7 @@ start();
 //         second = await getText('./content/second.txt');
 //     }
 //     catch(err){
-//         console.log(err);
+//         console.log(err);            
 //     }
 
 //     console.log(first, second);

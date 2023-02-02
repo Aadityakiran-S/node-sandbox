@@ -1,7 +1,7 @@
-const _ = require('lodash');
-
-const items = [1, [2, 3, [4, [5]]]];
-const newItems = _.flattenDeep(items);
-
-console.log(items);
-console.log(newItems);
+setInterval(() => {
+    console.log('hello world');
+}, 2000);
+console.log('I will return first');
+//process stays alive unless
+//Kill Process CONTROL + C
+//unexpected error
